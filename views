@@ -1,3 +1,23 @@
+Emenuexperience/
+├── app.js                  // Archivo principal de tu app
+├── package.json            // Configuraciones y dependencias
+├── routes.js               // Rutas del sistema
+├── README.md
+│
+├── views/                 // Archivos .ejs (HTML dinámico)
+│   ├── login.ejs          // Pantalla de inicio de sesión
+│   ├── panel.ejs          // Panel de usuario
+│   └── layout.ejs         // Plantilla base (opcional)
+│
+├── public/                // Archivos estáticos (CSS, imágenes, JS)
+│   ├── css/
+│   │   └── styles.css     // Estilos personalizados
+│   └── images/
+│       └── logo.png       // Imágenes como logos o fondos
+│
+└── controllers/ (opcional para organizar lógica)
+    └── userController.
+js
 <!-- views/login.ejs -->
 <!DOCTYPE html>
 <html lang="es">
