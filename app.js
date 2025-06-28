@@ -14,8 +14,8 @@ app.use(session({
   saveUninitialized: true
 }));
 
-app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs');
 
 app.use('/', routes);
 
