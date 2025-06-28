@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>Panel</title></head>
+<body>
+  <h2>Panel de Administración</h2>
+  <ul>
+    <% pantallas.forEach(p => { %>
+      <li>ID: <%= p.id %> | Nombre: <%= p.nombre %> | URL: <%= p.url %></li>
+    <% }) %>
+  </ul>
+</body>
+</html>
